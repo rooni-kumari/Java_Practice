@@ -6,10 +6,8 @@ class Calculator{
     {
         int a=15;
         int b=10;
-        
+        int c =0;
         Scanner sc= new Scanner(System.in);
-        
-        int c=0;
         System.out.println("choice operators 1.+ ,2. - ,3. * ,4. / ,5. % ");
         int choice= sc.nextInt();
 
