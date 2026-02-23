@@ -1,8 +1,8 @@
 class Logical{
     public static void main(String[] arg)
     {
-        int a=3;
-        int b=2;
+        int a=8;
+        int b=8;
         int c=8;
         if((a>b)&&(a>c))
         {
