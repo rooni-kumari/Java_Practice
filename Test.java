@@ -3,6 +3,13 @@ class Student{
     public String name;
     public static String college;
 
+    Student(int rollno, String name)
+    {
+        this.rollno= rollno;
+        this.name = name;
+        college = "ACE";
+    }
+
     public static void read()
     {
         System.out.println("READ.");
@@ -20,16 +27,10 @@ public class Test{
 
     public static void main(String[] args)
     {
-        Student s1= new Student();
-        s1.rollno= 10;
-        s1.name ="Ram";
-        s1.college = "ACE";
-
-        Student s2= new Student();
-        s2.rollno= 101;
-        s2.name ="Shyam";
-        s2.college = "JNV";
-
+        Student s1= new Student(101,"Ram");
+       
+        Student s2= new Student(102,"Shyam");
+       
         s1.read();
         s1.details();
 
