@@ -3,6 +3,14 @@ class Student{
     public String name;
     public static String college;
 
+    public int getRollNo(){
+        return rollno;
+    }
+
+    public void setRollNo(int rollno){
+        this.rollno = rollno;
+    }
+
     Student(int rollno, String name)
     {
         this.rollno= rollno;
@@ -31,10 +39,12 @@ public class Test{
        
         Student s2= new Student(102,"Shyam");
        
+        s1.setRollNo(7);
         s1.read();
         s1.details();
 
         s2.read();
         s2.details();
+        
     }
 }
