@@ -9,6 +9,7 @@ class Demo{
         double f= 60.9;
         char g= 'R';
         boolean h= false;
+        //float//
 
         System.out.println("byte "+a+" short "+b);
         System.out.println("this is demo");
