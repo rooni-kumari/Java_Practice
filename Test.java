@@ -23,6 +23,11 @@ class Student{
         System.out.println("READ.");
     }
 
+    public int details()
+    {
+        return 0;
+    }
+
     public void details()
     {
         System.out.println("Roll no : "+rollno);
