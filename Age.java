@@ -5,8 +5,13 @@ public class Age{
         Scanner sc = new Scanner(System.in);
         System.out.println("enter age : ");
         int age = sc.nextInt();
-        if(age<0) throw new ArithmeticException();
-        
+        try{
+            if(age<0) throw new ArithmeticException();
+        }
+        finally{
+            System.out.println(" finally");
+        }
+
         
         System.out.println("after exception");
     }
