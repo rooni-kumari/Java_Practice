@@ -15,6 +15,6 @@ public class Except{
         int age = sc.nextInt();
         if(age<0) throw new AgeException();
         System.out.println("after age exception");
-       System.out.println("Age is : "+age);
+        System.out.println("Age is : "+age);
     }
 }
